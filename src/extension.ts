@@ -20,7 +20,7 @@ export function activate(context: vscode.ExtensionContext) {
 		  const filePath = activeTextEditor.document.fileName;
 		  
 		  // Replace 'your-compiler-command' with the actual command you want to use.
-		  const compilerCommand = 'python C:\\Users\\pvano\\OneDrive\\Bureaublad\\ComputerDesign\\python\\regi\\assemblerimport.py';
+		  const compilerCommand = 'assemblerimport.py';
 		  
 		  const terminal = vscode.window.createTerminal('Run File');
 
